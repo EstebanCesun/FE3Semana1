@@ -1,0 +1,16 @@
+<p>Fecha en formato corto: {{ today | date:'short' }}</p>
+<p>Fecha en formato personalizado: {{ today | date:'dd/MM/yyyy' }}</p>
+
+<p>Precio en USD: {{ price | currency:'USD':'symbol':'1.2-2' }}</p>
+<p>Precio en EUR: {{ price | currency:'EUR':'symbol':'1.0-0' }}</p>
+
+<p>Tasa de éxito: {{ rate | percent:'1.0-2' }}</p>
+
+<p>Nombre en mayúsculas: {{ name | uppercase }}</p>
+<p>Nombre en minúsculas: {{ name | lowercase }}</p>
+
+<p>Duración en segundos: {{ timeInSeconds }}</p>
+<p>Duración en minutos:segundos: {{ timeInSeconds | timeFormat }}</p>
+
+
+<app-text-list></app-text-list>
