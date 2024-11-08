@@ -9,5 +9,5 @@ Este proyecto es un ejemplo de cómo utilizar un **Pipes comunes y personalizado
 ## Instalación y Ejecución
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/Esteban-G-G/angular-camelcase-pipe.git
+   git clone https://github.com/EstebanCesun/FE3Semana1.git
    cd angular-camelcase-pipe
